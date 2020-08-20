@@ -6,11 +6,24 @@ namespace MarsRover.Tests
     [TestFixture]
     public class MarsRoverShould
     {
-        [Test]
-        public void turns_right_north_to_east()
+        [TestCase("N", "E")]
+        [TestCase("E", "S")]
+        [TestCase("S", "W")]
+        [TestCase("W", "N")]
+        public void turns_right_north_to_east(string startsFacing, string endsFacing)
         {
-            Rover rover = new Rover("N");
-            Assert.AreEqual("E", rover.Facing);
+            Rover rover = new Rover(startsFacing);
+            Assert.AreEqual(endsFacing, rover.Facing);
+        }
+
+        [TestCase("N", "W")]
+        [TestCase("W", "S")]
+        [TestCase("S", "E")]
+        [TestCase("E", "N")]
+        public void turns_left_anticlockwise(string startsFacing, string endsFacing)
+        {
+            Rover rover = new Rover(startsFacing);
+            Assert.AreEqual(endsFacing, rover.Facing);
         }
     }
 

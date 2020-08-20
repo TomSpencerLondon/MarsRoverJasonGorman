@@ -45,6 +45,12 @@
         <Compile Include="MarsRoverShould.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\MarsRover\MarsRover.csproj">
+        <Project>{cdbe5755-8fa2-48bf-962e-bb438c2d6e85}</Project>
+        <Name>MarsRover</Name>
+      </ProjectReference>
+    </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
          Other similar extension points exist, see Microsoft.Common.targets.

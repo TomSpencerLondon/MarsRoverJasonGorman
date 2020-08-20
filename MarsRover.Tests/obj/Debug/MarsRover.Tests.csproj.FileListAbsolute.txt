@@ -7,3 +7,5 @@
 /Users/tomspencer/Desktop/BankMajiec/MarsRover/MarsRover.Tests/obj/Debug/MarsRover.Tests.csproj.CopyComplete
 /Users/tomspencer/Desktop/BankMajiec/MarsRover/MarsRover.Tests/obj/Debug/MarsRover.Tests.dll
 /Users/tomspencer/Desktop/BankMajiec/MarsRover/MarsRover.Tests/obj/Debug/MarsRover.Tests.pdb
+/Users/tomspencer/Desktop/BankMajiec/MarsRover/MarsRover.Tests/bin/Debug/MarsRover.dll
+/Users/tomspencer/Desktop/BankMajiec/MarsRover/MarsRover.Tests/bin/Debug/MarsRover.pdb

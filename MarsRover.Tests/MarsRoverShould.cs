@@ -25,17 +25,23 @@ namespace MarsRover.Tests
             Rover rover = new Rover(startsFacing);
             Assert.AreEqual(endsFacing, rover.Facing);
         }
-    }
 
-    public class Rover
-    {
-        private string _facing;
-
-        public Rover(string facing)
+        [TestCase('R', "Right")]
+        [TestCase('L', "Left")]
+        [TestCase('F', "Forward")]
+        [TestCase('B', "Back")]
+        public void finds_action_for_instruction(char instruction, string methodName)
         {
-            _facing = facing;
+            Assert.AreEqual(methodName, new Rover(null, null).FindAction(instruction).Method.Name);
         }
 
-        public string Facing => "E";
+        [Test]
+        public void executes_sequence_of_instructions()
+        {
+            Rover rover = new Rover("N", new[] {5, 5});
+            rover.Go("RFF");
+            Assert.AreEqual("E", rover.Facing);
+            Assert.AreEqual(new []{7, 5}, rover.Position);
+        }
     }
 }

@@ -1,0 +1,9 @@
+/Users/tomspencer/Desktop/BankMajiec/MarsRover/MarsRover/bin/Debug/MarsRover.dll
+/Users/tomspencer/Desktop/BankMajiec/MarsRover/MarsRover/bin/Debug/MarsRover.pdb
+/Users/tomspencer/Desktop/BankMajiec/MarsRover/MarsRover/bin/Debug/nunit.framework.dll
+/Users/tomspencer/Desktop/BankMajiec/MarsRover/MarsRover/bin/Debug/nunit.framework.xml
+/Users/tomspencer/Desktop/BankMajiec/MarsRover/MarsRover/obj/Debug/MarsRover.csprojAssemblyReference.cache
+/Users/tomspencer/Desktop/BankMajiec/MarsRover/MarsRover/obj/Debug/MarsRover.csproj.CoreCompileInputs.cache
+/Users/tomspencer/Desktop/BankMajiec/MarsRover/MarsRover/obj/Debug/MarsRover.csproj.CopyComplete
+/Users/tomspencer/Desktop/BankMajiec/MarsRover/MarsRover/obj/Debug/MarsRover.dll
+/Users/tomspencer/Desktop/BankMajiec/MarsRover/MarsRover/obj/Debug/MarsRover.pdb
